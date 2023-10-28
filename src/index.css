@@ -1,4 +1,7 @@
 @import-normalize; /* bring in normalize.css styles */
+:root {
+  --primary-color: #000;
+}
 
 body {
   margin: 0;
@@ -12,4 +15,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
